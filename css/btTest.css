@@ -1,0 +1,157 @@
+.nav-edit.nav-item {
+  margin-right: 40px;
+}
+
+.nav-link {
+  color: black;
+
+}
+
+.log-in {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.sign-up {
+  display: inline-block;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-align: center;
+    background: blue;
+    border-radius: 5px;
+    font-style: normal;
+    color: white;
+}
+
+.sign-up:hover {
+    text-align: center;
+    background: rgba(0, 0, 255, 0.5);
+    border-radius: 5px;
+    font-style: normal;
+    color: white !important;
+}
+
+.convo-text {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar-toggler {
+  background-color: blue;
+}
+
+
+.navbar-dark, .navbar[data-bs-theme="dark"] {
+	--bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link:focus, .nav-link:hover {
+	color: blue
+}
+
+.news-letter-div {
+  position: relative;
+}
+
+.subscribe-button {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.customize-input {
+  padding: 10px 10px;
+}
+
+
+
+/* custom spacers */
+.ms-100px {
+  margin-left: 100px;
+}
+/* end of custom spacers */
+
+/* media query */
+@media (max-width:991.98px) {
+  .sign-up, .log-in {
+    display: block;
+  }
+
+  .sign-up {
+    width: 103.683px;
+    height: 38px;
+    padding: 5px 25px !important;
+    margin-top: 20px;
+  }
+
+  .positionAlign {
+    position: relative;
+    left:45px;
+  }
+
+  .nav-link {
+    padding: 0;
+    margin-bottom: 10px;
+  
+  }
+
+  .ms-100px {
+    margin-left: 45px;
+  }
+
+
+
+}
+
+#jumbo{
+  background-image: url(/img/city\ background.png);
+  min-height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#trend{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.countries-color-edit.show {
+  color: red;
+}
+
+#sub{
+  background-color:rgb(62, 62, 210);
+}
+
+#form{
+  background: rgb(58, 53, 53);
+  border-radius: 2rem;
+}
+
+
+.card{
+   background: rgb(33, 31, 31);
+}
+
+.but{
+  background: #000;
+}
+
+@media (max-width:500px){
+   #mat{
+    height: 400px;
+    background-size: auto;
+   }
+   #ad{
+    margin-top: -6rem;
+   }
+   #add{
+    margin-top: -14rem;
+    margin-bottom: 9rem;
+   }
+   #card{
+    margin-bottom: 2.5rem;
+   }
+}
+
+/* end of media query */
